@@ -11,6 +11,7 @@
 #include "RCC_interface.h"
 #include "DIO_interface.h"
 #include "SPI1.h"
+#include "hw_reg.h"
 
 #include "mfrc522.h"
 #include "Reader.h"
@@ -31,18 +32,28 @@ int main()
 //u8  i[23]={0};
 
 	RCC_voidInitSysClock();
-
+	// port a clock
+	RCC_voidEnableClockPrephiral(RCC_APB2,2);
+	//RCC_voidEnableClockPrephiral(RCC_APB2, 1);
+//spi clock
 	RCC_voidEnableClockPrephiral(RCC_APB2 ,  12);
+	// af func
 	RCC_voidEnableClockPrephiral(RCC_APB2, 0);
+	// timer clock
 	RCC_voidEnableClockPrephiral(RCC_APB1, 1);
 
+	MGPIO_VidSetPinDirection(GPIOA, PIN3 , 0b0001);
+	MGPIO_VidSetPinDirection(GPIOA, PIN4, 0b0001);	// Chip Select  PIN
+	MGPIO_VidSetPinDirection(GPIOA, PIN5, 0b1001);
+	MGPIO_VidSetPinDirection(GPIOA, PIN6, INPUT_FLOATING);					// MISO PIN - Not IN USE
+	MGPIO_VidSetPinDirection(GPIOA, PIN7, 0b1001);
 
-	MGPIO_VidSetPinDirection(GPIOB, PIN12, 0b0001);	// Chip Select  PIN
-	MGPIO_VidSetPinDirection(GPIOB, PIN13, 0b1001);
-	MGPIO_VidSetPinDirection(GPIOB, PIN14, INPUT_FLOATING);					// MISO PIN - Not IN USE
-	MGPIO_VidSetPinDirection(GPIOB, PIN15, 0b1001);
+	MGPIO_VidSetPinValue(GPIOA, PIN4 , HIGH);
+	MGPIO_VidSetPinValue(GPIOA, PIN3 , HIGH);
+	SET_BIT(AFIO->MAPR , 25);
 	SPI1_voidInit();
 	Reader_init();
+	TIMER_voidInit();
 	//UART1_voidInit();
 	/*Enable RCC for crc*/
 	//RCC_voidEnableClockPrephiral(RCC_AHB , 6);
@@ -52,12 +63,10 @@ int main()
 	//RCC_voidEnableClockPrephiral(RCC_APB2 , 14);
 	//MGPIO_VidSetPinDirection( GPIOA ,PIN9 ,0b1001);
 	//MGPIO_VidSetPinDirection( GPIOA ,PIN10 ,0b0100);
-	 loginData_Type patient;
-	 loginData_Type patient1;
-	 patient.id_w[ID_WRITE_LEN]=0x10;
-	 patient.id_r[ID_READ_LEN]=0x00;
-	 patient.Pass_w[ID_READ_LEN]=0x11;
-	 patient.Pass_r[ID_READ_LEN]=0x00;
+	 loginData_Type patient={"29809011103009",0,"12345678",0};
+	// loginData_Type patient1;
+	// patient.id_w[ID_WRITE_LEN]=0x00;
+
 	 x=Reader_isNewCardPresent();
 if(x==TRUE){
 	x = Reader_SetLoginData(patient);

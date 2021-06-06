@@ -94,14 +94,14 @@ void PCD_WriteRegisterMulti(	u8 reg,		///< The register to write to. One of the 
  */
 u8 PCD_ReadRegister(	u8 reg	///< The register to read from. One of the PCD_Register enums.
 								) {
-	volatile u16 value1;
-	volatile u16 value2;
+	volatile u8 value;
+
 	MGPIO_VidSetPinValue(mfrc522_CS_PORT , mfrc522_CS_PIN , LOW);
 	u8 address = 0x80 | (reg & 0x7E);// Select slave
-	value1 = SPI1_u8SendRecieveSync(address);			// MSB == 1 is for reading. LSB is not used in address. Datasheet section 8.1.2.3.
-	value2 = SPI1_u8SendRecieveSync(0);					// Read the value back. Send 0 to stop reading.
+	value = SPI1_u8SendRecieveSync(address);			// MSB == 1 is for reading. LSB is not used in address. Datasheet section 8.1.2.3.
+	value = SPI1_u8SendRecieveSync(0);					// Read the value back. Send 0 to stop reading.
 	MGPIO_VidSetPinValue(mfrc522_CS_PORT , mfrc522_CS_PIN , HIGH);			// Release slave again
-	return (value2);
+	return (value);
 } // End PCD_ReadRegister()
 
 /**
