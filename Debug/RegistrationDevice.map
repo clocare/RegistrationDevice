@@ -31,26 +31,26 @@ d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/arm
 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-msizer.o)
                               d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-memset.o)
-                              C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o (memset)
+                              C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o (memset)
 
 Allocating common symbols
 Common symbol       size              file
 
-errno               0x4               C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+errno               0x4               C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
 callBackFunc        0xc               ./src/TIMER_program.o (symbol from plugin)
 key                 0x6               ./src/Reader.o (symbol from plugin)
 
 Discarded input sections
 
- .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
- .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.RCC_voidInitSysClock
-                0x00000000        0x2 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x00000000        0x2 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .data.ADCPrescTable
-                0x00000000        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x00000000        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .data.APBAHBPrescTable
-                0x00000000       0x10 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x00000000       0x10 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text          0x00000000        0x0 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-errno.o)
  .data          0x00000000        0x0 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-errno.o)
  .bss           0x00000000        0x0 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-errno.o)
@@ -122,7 +122,7 @@ MEMORY_ARRAY     0x00000000         0x00000000         xrw
 
 Linker script and memory map
 
-LOAD C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+LOAD C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
 LOAD d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libstdc++_nano.a
 LOAD d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libm.a
 START GROUP
@@ -149,12 +149,12 @@ END GROUP
                 0x08000000                __vectors_start = ABSOLUTE (.)
                 0x08000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
- .isr_vector    0x08000000      0x10c C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .isr_vector    0x08000000      0x10c C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                 0x08000000                __isr_vectors
  *(.cfmconfig)
  *(.after_vectors .after_vectors.*)
  .after_vectors
-                0x0800010c      0x244 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800010c      0x244 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                 0x08000162                UsageFault_Handler_C
                 0x08000194                BusFault_Handler_C
                 0x080001c8                HardFault_Handler_C
@@ -200,110 +200,110 @@ END GROUP
 .text           0x08000378     0x1ce3
  *(.text .text.*)
  .text.PCD_getUid
-                0x08000378       0x18 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000378       0x18 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.TIM4_IRQHandler
-                0x08000390       0x10 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000390       0x10 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.TIM3_IRQHandler
-                0x080003a0       0x18 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080003a0       0x18 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.TIM2_IRQHandler
-                0x080003b8       0x14 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080003b8       0x14 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.TIMER_voidSetBusyWait
-                0x080003cc       0x78 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080003cc       0x78 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.TIMER_voidInit
-                0x08000444       0xec C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000444       0xec C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.SPI1_u8SendRecieveSync
-                0x08000530       0x28 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000530       0x28 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.SPI1_voidInit
-                0x08000558       0x5c C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000558       0x5c C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.RCC_voidEnableClockPrephiral
-                0x080005b4       0x4c C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080005b4       0x4c C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.MGPIO_VidSetPinValue
-                0x08000600       0x94 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000600       0x94 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_ReadRegisterMulti
-                0x08000694       0x96 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000694       0x96 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_ReadRegister
-                0x0800072a       0x40 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800072a       0x40 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_WriteRegisterMulti
-                0x0800076a       0x2e C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800076a       0x2e C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_WriteRegister
-                0x08000798       0x2a C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000798       0x2a C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_AntennaOn
-                0x080007c2       0x1e C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080007c2       0x1e C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_Reset
-                0x080007e0       0x22 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080007e0       0x22 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_Init
-                0x08000802       0x3c C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000802       0x3c C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x0800083e        0x2 
  .text.Reader_init
-                0x08000840       0x20 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000840       0x20 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_ClearRegisterBitMask
-                0x08000860       0x18 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000860       0x18 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_SetRegisterBitMask
-                0x08000878       0x18 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000878       0x18 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_CalculateCRC
-                0x08000890       0x6a C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000890       0x6a C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_CommunicateWithPICC
-                0x080008fa      0x158 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080008fa      0x158 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_MIFARE_Transceive
-                0x08000a52       0x9e C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000a52       0x9e C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.MIFARE_Write
-                0x08000af0       0x42 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000af0       0x42 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_Authenticate
-                0x08000b32       0x5e C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000b32       0x5e C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PICC_WriteBlock
-                0x08000b90       0x48 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000b90       0x48 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.Reader_AuthCard
-                0x08000bd8       0x34 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000bd8       0x34 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.Reader_WriteLoginData
-                0x08000c0c       0x60 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000c0c       0x60 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.Reader_SetLoginData
-                0x08000c6c       0x32 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000c6c       0x32 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PCD_TransceiveData
-                0x08000c9e       0x28 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000c9e       0x28 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PICC_Select
-                0x08000cc6      0x2ec C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000cc6      0x2ec C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x08000fb2        0x2 
  .text.PICC_ReadCardSerial
-                0x08000fb4       0x18 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000fb4       0x18 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PICC_REQA_or_WUPA
-                0x08000fcc       0x60 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08000fcc       0x60 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PICC_RequestA
-                0x0800102c        0xe C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800102c        0xe C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.PICC_IsNewCardPresent
-                0x0800103a       0x28 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800103a       0x28 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.Reader_isNewCardPresent
-                0x08001062       0x14 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001062       0x14 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x08001076        0x2 
  .text.MGPIO_VidSetPinDirection
-                0x08001078       0xec C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
- .text.main     0x08001164       0xdc C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001078       0xec C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
+ .text.main     0x08001164       0xdc C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.SetSysClockTo72
-                0x08001240       0xc4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001240       0xc4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.SetSysClock
-                0x08001304        0x8 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001304        0x8 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.SystemCoreClockUpdate
-                0x0800130c       0x98 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800130c       0x98 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.SystemInit
-                0x080013a4       0x50 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080013a4       0x50 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.isSemihosting
-                0x080013f4       0x20 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080013f4       0x20 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.__initialize_hardware
-                0x08001414        0x8 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001414        0x8 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.__initialize_hardware_early
-                0x0800141c       0x18 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800141c       0x18 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text._trace_write_semihosting_debug
-                0x08001434       0x60 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001434       0x60 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.trace_write
-                0x08001494        0x8 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001494        0x8 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.__initialize_args
-                0x0800149c       0x10 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
- .text._exit    0x080014ac        0x2 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x0800149c       0x10 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
+ .text._exit    0x080014ac        0x2 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x080014ae        0x2 
  .text.trace_printf
-                0x080014b0       0x30 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080014b0       0x30 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .text.dumpExceptionStack
-                0x080014e0       0xf4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
- .text._sbrk    0x080015d4       0x44 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x080014e0       0xf4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
+ .text._sbrk    0x080015d4       0x44 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                 0x080015d4                _sbrk
  .text.__errno  0x08001618        0xc d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-errno.o)
                 0x08001618                __errno
@@ -356,18 +356,18 @@ END GROUP
  .text.memset   0x08001e78       0x10 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-memset.o)
                 0x08001e78                memset
  *(.rodata .rodata.* .constdata .constdata.*)
- .rodata        0x08001e88       0x10 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
- .rodata.TIM    0x08001e98        0xc C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .rodata        0x08001e88       0x10 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
+ .rodata.TIM    0x08001e98        0xc C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .rodata.configTable
-                0x08001ea4       0x30 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001ea4       0x30 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .rodata.dumpExceptionStack.str1.4
-                0x08001ed4      0x11a C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001ed4      0x11a C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x08001fee        0x2 
  .rodata.main.str1.4
-                0x08001ff0        0x9 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001ff0        0x9 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x08001ff9        0x3 
  .rodata.str1.4
-                0x08001ffc       0x2c C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x08001ffc       0x2c C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                                  0x29 (size before relaxing)
  .rodata._svfprintf_r.str1.1
                 0x08002028       0x11 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-svfprintf.o)
@@ -415,21 +415,21 @@ END GROUP
                 0x20000000                _sdata = .
                 0x20000000                __data_start__ = .
  *(.data_begin .data_begin.*)
- .data_begin    0x20000000        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .data_begin    0x20000000        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *(.data .data.*)
  .data.AHBPrescTable
-                0x20000004       0x10 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x20000004       0x10 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .data.SystemCoreClock
-                0x20000014        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x20000014        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .data.argv.4310
-                0x20000018        0x8 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x20000018        0x8 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .data._impure_ptr
                 0x20000020        0x4 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-impure.o)
                 0x20000020                _impure_ptr
  .data.impure_data
                 0x20000024       0x60 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-impure.o)
  *(.data_end .data_end.*)
- .data_end      0x20000084        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .data_end      0x20000084        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                 0x20000088                . = ALIGN (0x4)
                 0x20000088                _edata = .
                 0x20000088                __data_end__ = .
@@ -444,17 +444,17 @@ END GROUP
                 0x20000088                __bss_start__ = .
                 0x20000088                _sbss = .
  *(.bss_begin .bss_begin.*)
- .bss_begin     0x20000088        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .bss_begin     0x20000088        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *(.bss .bss.*)
- .bss.buf.5205  0x2000008c       0x80 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .bss.buf.5205  0x2000008c       0x80 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .bss.current_heap_end.3961
-                0x2000010c        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
- .bss.key       0x20000110        0x6 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x2000010c        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
+ .bss.key       0x20000110        0x6 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x20000116        0x2 
  .bss.name.4309
-                0x20000118        0x1 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x20000118        0x1 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  *fill*         0x20000119        0x3 
- .bss.uid       0x2000011c        0xc C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .bss.uid       0x2000011c        0xc C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .bss.__malloc_free_list
                 0x20000128        0x4 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-mallocr.o)
                 0x20000128                __malloc_free_list
@@ -462,10 +462,10 @@ END GROUP
                 0x2000012c        0x4 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-mallocr.o)
                 0x2000012c                __malloc_sbrk_start
  *(COMMON)
- COMMON         0x20000130        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ COMMON         0x20000130        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                 0x20000130                errno
  *(.bss_end .bss_end.*)
- .bss_end       0x20000134        0x4 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .bss_end       0x20000134        0x4 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                 0x20000138                . = ALIGN (0x4)
                 0x20000138                __bss_end__ = .
                 0x20000138                _ebss = .
@@ -532,13 +532,13 @@ END GROUP
 
 .comment        0x00000000       0x7e
  *(.comment)
- .comment       0x00000000       0x7e C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .comment       0x00000000       0x7e C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                                  0x7f (size before relaxing)
 
 .ARM.attributes
                 0x00000000       0x31
  .ARM.attributes
-                0x00000000       0x31 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x00000000       0x31 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .ARM.attributes
                 0x00000031       0x2d d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-errno.o)
  .ARM.attributes
@@ -585,26 +585,26 @@ END GROUP
 .debug_aranges  0x00000000      0x238
  *(.debug_aranges)
  .debug_aranges
-                0x00000000      0x238 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+                0x00000000      0x238 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x2b5b
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x2b5b C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .debug_info    0x00000000     0x2b5b C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
 
 .debug_abbrev   0x00000000      0x492
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x492 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000      0x492 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
 
 .debug_line     0x00000000      0xbd2
  *(.debug_line)
- .debug_line    0x00000000      0xbd2 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .debug_line    0x00000000      0xbd2 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
 
 .debug_frame    0x00000000      0xa44
  *(.debug_frame)
- .debug_frame   0x00000000      0x734 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .debug_frame   0x00000000      0x734 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
  .debug_frame   0x00000734       0x20 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-errno.o)
  .debug_frame   0x00000754       0x4c d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-vsnprintf.o)
  .debug_frame   0x000007a0       0x90 d:/imt course/imt_arm_course/02- tools/03- imt sdk/sdk/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-svfprintf.o)
@@ -622,12 +622,12 @@ END GROUP
 
 .debug_str      0x00000000      0xcca
  *(.debug_str)
- .debug_str     0x00000000      0xcca C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .debug_str     0x00000000      0xcca C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
                                 0xd41 (size before relaxing)
 
 .debug_loc      0x00000000     0x1d99
  *(.debug_loc)
- .debug_loc     0x00000000     0x1d99 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .debug_loc     0x00000000     0x1d99 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -646,4 +646,4 @@ END GROUP
 OUTPUT(RegistrationDevice.elf elf32-littlearm)
 
 .debug_ranges   0x00000000      0x3e8
- .debug_ranges  0x00000000      0x3e8 C:\Users\user\AppData\Local\Temp\ccNPFHKD.ltrans0.ltrans.o
+ .debug_ranges  0x00000000      0x3e8 C:\Users\user\AppData\Local\Temp\ccdQBf77.ltrans0.ltrans.o

@@ -52,8 +52,9 @@ int main()
 	MGPIO_VidSetPinValue(GPIOA, PIN3 , HIGH);
 	SET_BIT(AFIO->MAPR , 25);
 	SPI1_voidInit();
-	Reader_init();
 	TIMER_voidInit();
+	Reader_init();
+
 	//UART1_voidInit();
 	/*Enable RCC for crc*/
 	//RCC_voidEnableClockPrephiral(RCC_AHB , 6);
